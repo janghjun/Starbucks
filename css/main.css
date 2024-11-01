@@ -1,3 +1,4 @@
+
 /*COMMON*/
 body {
   font-family: 'Nanum Gothic', sans-serif;
@@ -13,15 +14,14 @@ img {
   /* img(인라인 요소) 하단에 Baseline 공백을 제거 */
   display: block;
 }
-
-/*INNER*/
+/*INNER
 .inner {
   width: 1100px;
   margin: 0 auto;
   position: relative;
 }
-
-/*BUTTON*/
+*/
+/*BUTTON
 .btn {
   width: 130px;
   padding: 10px;
@@ -72,8 +72,8 @@ img {
   color: #333;
   background-color: #FFF;
 }
-
-/*BACK TO POSITION*/
+*/
+/*BACK TO POSITION
 .back-to-position {
   opacity: 0;
   transition: 1s;
@@ -100,9 +100,9 @@ img {
 .show .back-to-position.delay-3 {
   transition-delay: .9s;
 }
+*/
 
-
-/*HEADER*/
+/*HEADER
 header {
   width: 100%;
   position: fixed;
@@ -253,7 +253,7 @@ header .main-menu .item .item__contents .contents__texture p {
   color: #64a70b;
   margin: 4px 0 14px;
 }
-/*BADGES*/
+/*BADGES
 header .badges {
   position: absolute;
   top: 132px;
@@ -266,8 +266,7 @@ header .badges .badge {
   box-shadow: 4px 4px 10px rgba(0,0,0,.15);
   cursor: pointer;
 }
-
-
+*/
 /*VISUAL*/
 .visual {
   margin-top: 120px;
@@ -801,7 +800,7 @@ header .badges .badge {
 }
 
 
-/*FOOTER*/
+/*FOOTER
 footer {
   background-color: #272727;
   border-top: 1px solid #333;
@@ -873,7 +872,7 @@ footer .copyright {
 footer .logo {
   margin: 30px auto 0;
 }
-
+*/
 
 /*SCROLL TO TOP*/
 #to-top {
